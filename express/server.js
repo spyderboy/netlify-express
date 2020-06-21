@@ -7,6 +7,7 @@ const upload = multer({ storage: multer.memoryStorage() });
 const bodyParser = require("body-parser");
 const router = express.Router();
 const stream = require("stream");
+const encoding = require("encoding");
 var fs = require("fs");
 var app = Express();
 app.use(function(req, res, next) {
