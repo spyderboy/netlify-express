@@ -1,5 +1,3 @@
 [build]
   command = "npm install && npm run build"
   functions = "functions"
-[[redirects]]
-  /* /index.html 200
